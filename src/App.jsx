@@ -22,7 +22,7 @@ import Faq from './ExtraComp/Faq'
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/home" element={<MainDisplay />} />
@@ -46,7 +46,7 @@ const App = () => {
           <Route path="*" element={<Error />} />
         </Routes>
         <ToastContainer position="top-center" />
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
     </div>
   )
 }
